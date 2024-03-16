@@ -42,15 +42,7 @@ While this script focuses on NIDS detection using Scapy, it's worth mentioning t
 * Always obtain proper authorization before using hping3 on any network.
 * Misusing hping3 for malicious purposes is illegal and unethical.
 
-**Further Learning:**
-
-For deeper exploration of NIDS and ethical hacking techniques, consider these resources:
-
-* [Link to Ethical Hacking Tutorial]
-* [Link to NIDS Detection Methods Course]
-* [Link to Website on Network Security Testing]
-
 **Additional Considerations:**
 
 * False positives may occur, requiring manual analysis.
-* This script may not detect all types of network attacks.
+* This script does not detect all types of network attacks.
