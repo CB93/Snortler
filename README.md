@@ -28,14 +28,29 @@ This script is for educational purposes only. Running it on a network without pr
 
 **Note:** Running the script with `sudo` is necessary for capturing network packets on most systems.
 
-**Further Enhancements:**
+**hping3 and Network Exploration (Educational Context)**
 
-* Consider implementing attack logging or alerting mechanisms.
-* Enhance detection logic with more advanced techniques.
-* Integrate with existing security infrastructure.
+While this script focuses on NIDS detection using Scapy, it's worth mentioning tools like **hping3**.  hping3 is a command-line utility that allows for crafting and sending custom TCP/IP packets.  In a controlled environment, security professionals can leverage hping3 for various legitimate purposes, such as:
+
+* **Simulating Network Traffic:**  hping3 can be used to simulate different network traffic patterns, helping to test the resilience of firewalls and network devices under various load conditions.
+* **Advanced Port Scanning:**  hping3 offers more granular control over port scans compared to basic tools. This can be useful for security professionals to identify open ports and services running on a target system during authorized vulnerability assessments.
+* **Network Performance Analysis:**  By sending packets with specific configurations, hping3 can be used to analyze network behavior and measure performance metrics like latency and packet loss.
+
+**Important Considerations:**
+
+* hping3 is a powerful tool, and it's crucial to emphasize responsible use.
+* Always obtain proper authorization before using hping3 on any network.
+* Misusing hping3 for malicious purposes is illegal and unethical.
+
+**Further Learning:**
+
+For deeper exploration of NIDS and ethical hacking techniques, consider these resources:
+
+* [Link to Ethical Hacking Tutorial]
+* [Link to NIDS Detection Methods Course]
+* [Link to Website on Network Security Testing]
 
 **Additional Considerations:**
 
 * False positives may occur, requiring manual analysis.
 * This script may not detect all types of network attacks.
-* Regular updates and testing are crucial for maintaining effectiveness.
